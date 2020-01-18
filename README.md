@@ -12,12 +12,17 @@ The main files correspond to the classes in the game.
  - **SudokuElement.java**:The objects of the class represent each cell in the grid. It stores the value of each cell.
 
 ## Data structures and their relations to each other’s
-**Grid object**: this stores the multi- dimensional array grid  of sudokuElement objects. It also stores the integer gridSize and a set gridCharacters
+**Grid object**: this stores the multi- dimensional array grid  of sudokuElement objects. It also stores the integer gridSize and a set gridCharacters.
+
 **SudokuElement object**: this object stores the value of each sudoku cell in a String value. 
-**Solver object**: takes in the Grid Object and solves the puzzle 
-**Grid multi-dimensional array**: store all the elements of the puzzle of type sudokuElement
+
+**Solver object**: takes in the Grid Object and solves the puzzle.
+
+**Grid multi-dimensional array**: store all the elements of the puzzle of type sudokuElement.
+
 **Integer gridSize**: store the size of the grid.
-**Set gridCharacters**: store a set of the characters in the grid
+
+**Set gridCharacters**: store a set of the characters in the grid.
  
 
 ## Assumptions
